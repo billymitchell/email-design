@@ -1,0 +1,637 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+	<title>RCI</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+	<meta name="format-detection" content="telephone=no" />
+
+	<!--[if !mso]><!-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+	<!--<![endif]-->
+
+	<style type="text/css">
+		/*Video CSS*/
+		.video-wrapper {
+			display: none;
+		}
+		@media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:1024px) {
+			.video-wrapper {
+				display: block !important;
+			}
+
+			.video-fallback {
+				display: none !important;
+			}
+		}
+		@supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) {
+			div[class^=video-wrapper] {
+				display: block !important;
+			}
+
+			div[class^=video-fallback] {
+				display: none !important;
+			}
+		}
+		#MessageViewBody .video-wrapper {
+			display: block !important;
+		}
+		#MessageViewBody .video-fallback {
+			display: none !important;
+		}
+		/*End Video CSS*/
+
+		body {
+			margin: 0 !important;
+			padding: 0 !important;
+			-webkit-text-size-adjust: 100% !important;
+			-ms-text-size-adjust: 100% !important;
+			-webkit-font-smoothing: antialiased !important;
+		}
+
+		img {
+			border: 0 !important;
+			outline: none !important;
+		}
+
+		p {
+			Margin: 0px !important;
+			Padding: 0px !important;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0px;
+			mso-table-rspace: 0px;
+		}
+
+		td,
+		a,
+		span {
+			border-collapse: collapse;
+			mso-line-height-rule: exactly;
+		}
+
+		* img[tabindex="0"]+div {
+			display: none !important;
+		}
+
+		.ExternalClass * {
+			line-height: 100%;
+		}
+
+		.em_defaultlink a {
+			color: inherit !important;
+			text-decoration: none !important;
+		}
+
+		span.MsoHyperlink {
+			mso-style-priority: 99;
+			color: inherit;
+		}
+
+		span.MsoHyperlinkFollowed {
+			mso-style-priority: 99;
+			color: inherit;
+		}
+
+		/*Stylesheed for the devices width between 481px to 599px*/
+		@media only screen and (min-width:481px) and (max-width:699px) {
+			.em_main_table {
+				width: 100% !important;
+			}
+
+			.em_wrapper {
+				width: 100% !important;
+			}
+
+			.em_aside {
+				padding: 0px 10px !important;
+				/*Update the values as required*/
+			}
+
+			.em_aside2 {
+				padding: 10px 10px !important;
+			}
+
+			.em_aside1 {
+				padding: 20px 10px !important;
+			}
+
+			.em_aside3 {
+				padding: 0px 10px 20px 10px !important;
+			}
+
+			.em_hide {
+				display: none !important;
+			}
+
+			.em_full_img {
+				width: 100% !important;
+				height: auto !important;
+				max-width: none !important;
+			}
+
+			.em_align_cent {
+				text-align: center !important;
+			}
+
+			.em_side {
+				width: 10px !important;
+			}
+
+			.em_h20 {
+				height: 20px !important;
+			}
+
+			.em_center1 {
+				padding-bottom: 20px !important;
+				text-align: center !important;
+			}
+
+			.em_gap_bottom {
+				padding-bottom: 20px !important;
+			}
+		}
+
+		/*Stylesheed for the devices width between 0px to 480px*/
+		@media only screen and (max-width:480px) {
+			.em_main_table {
+				width: 100% !important;
+			}
+
+			.em_wrapper {
+				width: 100% !important;
+			}
+
+			.em_aside {
+				padding: 0px 10px !important;
+				/*Update the values as required*/
+			}
+
+			.em_aside1 {
+				padding: 20px 10px !important;
+			}
+
+			.em_aside2 {
+				padding: 10px 10px !important;
+			}
+
+			.em_aside3 {
+				padding: 0px 10px 20px 10px !important;
+			}
+
+			.em_hide {
+				display: none !important;
+			}
+
+			.em_full_img {
+				width: 100% !important;
+				height: auto !important;
+				max-width: none !important;
+			}
+
+			.em_small_img {
+				width: auto !important;
+				height: 100% !important;
+				max-width: 100% !important;
+			}
+
+			.em_align_cent {
+				text-align: center !important;
+			}
+
+			.em_side {
+				width: 10px !important;
+			}
+
+			.em_h20 {
+				height: 20px !important;
+			}
+
+			.em_center1 {
+				padding-bottom: 20px !important;
+				text-align: center !important;
+			}
+
+			.em_font1 {
+				font-size: 15px !important;
+				line-height: 20px !important;
+			}
+
+			.em_font2 {
+				font-size: 13px !important;
+				line-height: 22px !important;
+			}
+
+			.em_font3 {
+				font-size: 22px !important;
+				line-height: 30px !important;
+			}
+
+			.em_gap_bottom {
+				padding-bottom: 20px !important;
+			}
+		}
+
+		.em_full_img {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+
+		.em_full_img {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+
+		.em_full_img1 {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+
+		.em_full_img1 {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+
+		.em_full_img1 {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+
+		.em_full_img1 {
+			width: 100% !important;
+			height: auto !important;
+			max-width: none !important;
+		}
+	</style>
+	<!--[if gte mso 9]>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+</head>
+
+<body style="margin:0px; padding:0px;">
+	<!--Full width table start-->
+
+<!--------------------------------------------->	
+<!-- == iTravelBetter Section with Agency == -->
+<!--------------------------------------------->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tbody>
+		<tr>
+			<td align="center" valign="top">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="em_main_table" style="table-layout:fixed; width:700px;" width="700">
+				<tbody>
+					<tr>
+						<td align="center" class="em_aside1" style="padding:20px 20px 20px 20px;" valign="top">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="em_wrapper" style="width:660px;" width="100%">
+							<tbody>
+								<!-- <tr>
+									<td align="center" valign="top">
+                                        <img alt="Royal Caribbean" id="https://%%HeaderLogo%%" name="__HeaderLogo__" spname="__HeaderLogo__" src="https://%%HeaderLogo%%" />
+                                    </td>
+								</tr> -->
+								<tr>
+									<td align="center" style="padding-top:18px; font-family: 'Calibri', 'Lato', Arial, Verdana,  Helvetica, sans-serif; font-size: 16px; font-weight: 400; line-height: 18px; color: #3A3939;" valign="top">Special Offer from <strong>%%Programmatic Name%%</strong></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-------------------------------------------------->	
+<!-- == iTravelBetter Section with Agency Ends == -->
+<!-------------------------------------------------->    
+
+
+	<!--------------------------------------------------->
+	<!--------- == APEX Table == ----------->
+	<!--------------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td height="58" align="center" valign="top">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:20px;" class="em_aside1">
+							<table width="660" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:660px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top">
+										<img src="TTC-message-rci.jpg" alt="Royal Caribbean" width="500" style="display:block; width:100%;max-width:500px;" border="0" />
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-------------------------------------------------------->
+	<!--------- == End APEX Table == ----------->
+	<!-------------------------------------------------------->
+
+
+
+	<!--------------------------------------------->
+	<!------- == Header Image Section == ---------->
+	<!--------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="header_image_Section">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top">
+							<a href="https://www.travelleaders.com/travel_specials/promotion.aspx?preview=true&promotionId=20547"
+								target="_blank">
+								<img src="ezgif.com-optimize-min.gif" alt="Royal Caribbean" width="700" style="display:block; width:100%;max-width:700px;" border="0" />
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--------------------------------------------->
+	<!----- == Header Image Section Ends == ------->
+	<!--------------------------------------------->
+
+	<!--------------------------------------------------->
+	<!--------- == Full Width Copy Section == ----------->
+	<!--------------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td height="58" align="center" valign="top">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:20px;" class="em_aside1">
+							<table width="660" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:660px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top">
+										<a href="https://www.travelleaders.com/travel_specials/promotion.aspx?preview=true&promotionId=20547"
+											target="_blank">
+											<img src="2019-labor-day-offer.png" width="550" alt="Royal Caribbean"
+												style="display: block;width:100%;max-width: 550px;"></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-------------------------------------------------------->
+	<!--------- == Full Width Copy Section ends == ----------->
+	<!-------------------------------------------------------->
+
+	<!------------------------------------------->
+	<!--------- == Content Section 2 == --------->
+	<!------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:25px 20px 25px 20px;" class="em_aside1">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:660px;" class="em_wrapper">
+								<tr>
+									<td align="left" valign="top"
+										style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #868686; font-size:16px; line-height: 150%; padding-left: 15px; padding-right:20px; border-left: 5px solid #5072B7;">
+										There’s no better way to experience Alaska than on Royal Caribbean®. Marvel at
+										the majestic Hubbard Glacier from the expansive deck of <i>Radiance of the Seas®</i>.
+										Explore the Alaska Inside Passage onboard <i>Serenade of the Seas®</i> or the biggest
+										ship in Alaska, <i>Ovation of the Seas®</i>, enjoying wild thrills like simulated
+										skydiving and 360-degree views from 300 feet up in the North Star®. <strong>When you
+										book now, you’ll enjoy up to $200 off your next getaway, plus 50% off your
+										second guest.</strong> Hurry, the Labor Day Sale ends soon! Come Seek the Royal
+										Caribbean®.</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!------------------------------------------->
+	<!----- == Content Section 2 - ends == ------>
+	<!------------------------------------------->
+
+	<!--------------------------------------------------->
+	<!--------- == Full Width Copy Section == ----------->
+	<!--------------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td height="58" align="center" valign="top">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:20px;" class="em_aside1">
+							<table width="660" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:660px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top">
+										<a href="https://www.travelleaders.com/travel_specials/promotion.aspx?preview=true&promotionId=20547"
+											target="_blank">
+											<img src="Interactive-Banner.png" width="660" alt="Royal Caribbean"
+												style="display: block;width:100%;max-width: 660px;"></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-------------------------------------------------------->
+	<!--------- == Full Width Copy Section ends == ----------->
+	<!-------------------------------------------------------->
+
+
+	<!------------------------------------------->
+	<!--------- == Content Section 2 == --------->
+	<!------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="" class="em_aside1">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:660px;" class="em_wrapper">
+								<tr>
+									<td align="left" valign="top"
+										style="font-family: 'Trebuchet MS', Helvetica, sans-serif; color: #868686; font-size:16px; line-height: 150%; padding-left: 15px; padding-right:15px;padding-bottom:30px;">
+										<p>
+											<strong style='color:#192857'><i>Ovation OF THE SEAS</i><sup
+													style="line-height: 0px">&reg;</sup></strong><br>
+											May - September 2020 • Sailing from Seattle, Washington<br>
+											<strong>7-Night Alaska Glacier</strong><br>
+											<br>
+											<strong style='color:#192857'><i>RADIANCE OF THE SEAS</i><sup
+													style="line-height: 0px">&reg;</sup></strong><br>
+											May - August 2020 <br>
+											<strong>7-Night Northbound Alaska & Hubbard Glacier • Sailing from
+												Vancouver,
+												British Columbia</strong><br>
+											<strong>7-Night Northbound Alaska & Hubbard Glacier • Sailing from Seattle,
+												Washington</strong><br>
+											<br>
+											<strong style='color:#192857'><i>SERENADE OF THE SEAS</i><sup
+													style="line-height: 0px">&reg;</sup></strong><br>
+											May - August 2020 • sailing from Vancouver, British Columbia<br>
+											<strong>5-Night Alaska Getaway<br>
+												7-Night Alaska Glacier Experience</strong><br>
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!------------------------------------------->
+	<!----- == Content Section 2 - ends == ------>
+	<!------------------------------------------->
+	<!------------------------------------>
+	<!-------- == Agency Number == ------->
+	<!------------------------------------>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Content_Section_5">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding: 10px;" class="em_aside3">
+							<table width="670" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:670px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top" style="border:10px #5072B7 solid;">
+										<table width="650" border="0" cellspacing="0" cellpadding="0" align="center"
+											style="width:650px;" class="em_wrapper">
+											<tr>
+												<td align="center" valign="top"
+													style="font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size:20px; color: #5072B7; font-weight: bold; line-height: 30px; padding: 30px"
+													class="em_aside2"><a
+														href="https://www.travelleaders.com/travel_specials/promotion.aspx?preview=true&promotionId=20547"
+														target="_blank" style="color:#5072B7">Hurry! Offer ends
+														September 2,
+														2019&nbsp;</a><br />
+													For reservations and information, contact %%Programmatic Name%% today at
+													%%Programmatic Phone%%
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!------------------------------------>
+	<!----- == Agency Number Ends == ----->
+	<!------------------------------------>
+
+	<!------------------------------------------->
+	<!--------- == Content Section 2 == --------->
+	<!------------------------------------------->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Content_Section_4">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:10px 10px 10px 10px;" class="em_aside1">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:670px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top"
+										style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size:12px; color:#6C6C6C; line-height:14px">
+										<p>Terms & Conditions Apply.<br><br>All prices are subject to availability and
+											change. Restrictions may apply. Please click on the individual offers for
+											the complete terms and conditions, which are displayed on the promotion
+											page.</a></p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!------------------------------------------->
+	<!----- == Content Section 2 - ends == ------>
+	<!------------------------------------------->
+
+	<!------------------------------------------->
+	<!--------- == Footer 
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Content_Section_4">
+		<tr>
+			<td valign="top" align="center">
+				<table width="700" border="0" cellspacing="0" cellpadding="0" align="center"
+					style="table-layout:fixed; width:700px;" class="em_main_table">
+					<tr>
+						<td align="center" valign="top" style="padding:10px 10px 10px 10px;" class="em_aside1">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"
+								style="width:670px;" class="em_wrapper">
+								<tr>
+									<td align="center" valign="top"
+										style="font-family:'Trebuchet MS', Helvetica, sans-serif; font-size:12px; color:#6C6C6C; line-height:14px">
+										footer
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	Footer == ------>
+	<!------------------------------------------->
+
+	<!--Full width table End-->
+
+	<!--Increase/decrease the number of (&nbsp;) as per the template width -->
+	<div class="em_hide" style="white-space:nowrap;font:20px courier;color:#FFFFFF">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	</div>
+</body>
+
+</html>
